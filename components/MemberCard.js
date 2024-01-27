@@ -24,7 +24,7 @@ function MemberCard({ memberObj, onUpdate }) {
         <Button variant="danger" onClick={deleteThisMember} className="m-2">
           DELETE
         </Button>
-        console.warn()
+
       </Card.Body>
     </Card>
   );
